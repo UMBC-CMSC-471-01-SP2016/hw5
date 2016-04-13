@@ -1,6 +1,7 @@
-;; There is only one block, A, which is on the table.  A sprayer with
-;; red paint is on the table.  Our goal is to have A be red and the
-;; arm empty.
+;; The arm is empty and there is a stack of three blocks: C is on B
+;; which is on A which is on the table.  The goal is to reverse the
+;; stack, i.e., have A on B and B on C.  We don't need to mention that
+;; C is on the table, since the domain constraints will enforce it.
 
 (define (problem 00)
   (:domain hw5)
